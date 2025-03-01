@@ -28,7 +28,6 @@ const formSchema = z.object({
 })
 
 
-type FormValues = z.infer<typeof formSchema>
 export default function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [formStatus, setFormStatus] = useState<"idle" | "success" | "error">("idle")
@@ -93,10 +92,10 @@ export default function Contact() {
           <span className="inline-block px-3 py-1 text-sm font-medium text-purple-700 bg-purple-100 rounded-full mb-4">
             Get In Touch
           </span>
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Let's Start a Conversation</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Let&apos;s Start a Conversation</h2>
           <p className="text-gray-600 text-lg">
-            Have a project in mind or want to learn more about our services? We'd love to hear from you. Fill out the
-            form below and we'll get back to you as soon as possible.
+            Have a project in mind or want to learn more about our services? We&apos;d love to hear from you. Fill out the
+            form below and we&apos;ll get back to you as soon as possible.
           </p>
         </motion.div>
 
@@ -209,7 +208,7 @@ export default function Contact() {
               <Alert className="mb-6 bg-green-50 border-green-200">
                 <CheckCircle className="h-4 w-4 text-green-600" />
                 <AlertDescription className="text-green-600">
-                  Your message has been sent successfully! We'll get back to you soon.
+                  Your message has been sent successfully! We&pos;ll get back to you soon.
                 </AlertDescription>
               </Alert>
             )}

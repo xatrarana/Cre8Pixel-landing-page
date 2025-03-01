@@ -3,8 +3,6 @@
 import { motion } from "framer-motion"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import Image from "next/image"
-import { LandingImage } from "@/assets"
 
 export default function Hero() {
   return (

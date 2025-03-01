@@ -99,7 +99,7 @@ export default function Testimonials() {
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">What Our Clients Say</h2>
           <p className="text-gray-600 text-lg">
-            Don't just take our word for it. Here's what our clients have to say about their experience working with
+            Don&apost just take our word for it. Here&aposs what our clients have to say about their experience working with
             Cre8Pixel Company.
           </p>
         </motion.div>
